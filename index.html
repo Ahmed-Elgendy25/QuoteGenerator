@@ -15,29 +15,46 @@
   <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
 </head>
 
-<body class="bg-black">
+<body class="bg-black ">
   <div class="container-fluid">
-    <div class="row px-5">
-      <div class=" col-12 px-5">
-        <div class="video-overlay w-100  h-50  pixel-corners--wrapper ">
+    <div class="row p-5 ">
+      <div class=" col-sm-12 p-5  ">
+        <div id="imageContainer" class="video-overlay  mx-auto  pixel-corners--wrapper " style="width: 60%;">
 
-          <!-- <img src="/assets/Blade_Runner_Pixelgraph.gif" class="mw-100 object-fit-cover" alt="blade-runner2049" /> -->
-          <img src="/assets/fight-club-ending-animated-250773.gif" id="img" class="w-100 h-100  object-fit-cover"
-            alt="blade-runner2049" />
+          <img src="./assets/Blade_Runner_Pixelgraph.gif" class="mw-100 object-fit-cover" alt="blade-runner2049" />
+          <!-- <img src="./assets/mr.robot.gif" id="img" class="w-100   object-fit-cover" alt="blade-runner2049" /> -->
+          <!-- <img src="./assets/masterMind.gif" id="img" class="w-100 object-fit-cover" alt="blade-runner2049" /> -->
+          <!-- <img src="./assets/jay-bansal-joker.gif" id="img" class="w-100  object-fit-cover" alt="blade-runner2049" /> -->
+          <!-- <img src="./assets/fight_club_smoke_2x.gif" id="img" class="w-100  object-fit-cover"
+            alt="blade-runner2049" /> -->
+
 
         </div>
 
+        <div class="content d-flex flex-column pixel-border px-3 py-1 w-50 mx-auto mt-5 overflow-hidden  ">
+
+          <div id="contentContainer">
+            <p class="text-white"><span>Joey:</span>You Look Lonely, I Can Fix That</p>
+            <p class="text-white"><span>Officer-K:</span>...</p>
+
+          </div>
+
+          <button class="btn btn-lg btn-dark ms-auto  px-3 py-2 " onclick="generateQuote()"
+            type="button">Generate</button>
+
+
+        </div>
 
       </div>
 
-      <div class="col-12 px-5">
+      <!-- <div class="col-12 px-5">
 
         <div class="content pixel-border p-3 ">
           <p class="text-white"><span>Joey:</span>You Look Lonely, I Can Fix That</p>
           <p class="text-white"><span>Officer-K:</span>...</p>
         </div>
 
-      </div>
+      </div> -->
     </div>
   </div>
 
