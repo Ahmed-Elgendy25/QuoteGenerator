@@ -51,7 +51,7 @@ function generateQuote() {
   var typewriter = new Typewriter(contentContainer, {
     loop: false, // set to true if you want it to loop
     cursor: '_',
-    delay: 30,
+    delay: 50,
   });
 
   typewriter.pauseFor(500).typeString(randomQuote.quote).start();
