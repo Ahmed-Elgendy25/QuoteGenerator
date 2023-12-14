@@ -19,9 +19,9 @@
   <div class="container-fluid">
     <div class="row p-5 ">
       <div class=" col-sm-12 p-5  ">
-        <div id="imageContainer" class="video-overlay  mx-auto  pixel-corners--wrapper " style="width: 60%;">
+        <div id="imageContainer" class="video-overlay  mx-auto  pixel-corners--wrapper " style="width: 65%;">
 
-          <img src="./assets/Blade_Runner_Pixelgraph.gif" class="mw-100 object-fit-cover" alt="blade-runner2049" />
+          <img src="./assets/Blade_Runner_Pixelgraph.gif" class="w-100 object-fit-cover" alt="blade-runner2049" />
           <!-- <img src="./assets/mr.robot.gif" id="img" class="w-100   object-fit-cover" alt="blade-runner2049" /> -->
           <!-- <img src="./assets/masterMind.gif" id="img" class="w-100 object-fit-cover" alt="blade-runner2049" /> -->
           <!-- <img src="./assets/jay-bansal-joker.gif" id="img" class="w-100  object-fit-cover" alt="blade-runner2049" /> -->
@@ -31,16 +31,17 @@
 
         </div>
 
-        <div class="content d-flex flex-column pixel-border px-3 py-1 w-50 mx-auto mt-5 overflow-hidden  ">
-
-          <div id="contentContainer">
-            <p class="text-white"><span>Joey:</span>You Look Lonely, I Can Fix That</p>
-            <p class="text-white"><span>Officer-K:</span>...</p>
+        <div id="contentWrapper"
+          class=" d-flex flex-column flex-wrap overflow-hidden  pixel-border px-3 py-1 w-50 mx-auto mt-5 ">
+          <div id="contentContainer" class="text-white  bg-black py-3 px-2 mb-3 ">
+            <p class="text-white d-inline-block ">
+              <span>Joey:</span> You Look Lonely, I Can Fix That
+            </p>
+            <p class="text-white d-inline-block w-100"><span>Officer-K:</span>...</p>
 
           </div>
 
-          <button class="btn btn-lg btn-dark ms-auto  px-3 py-2 " onclick="generateQuote()"
-            type="button">Generate</button>
+          <button class="btn btn-lg btn-dark ms-auto  px-3 " onclick="generateQuote()" type="button">Generate</button>
 
 
         </div>
@@ -60,6 +61,8 @@
 
 
 
+
+  <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
 
 
 
